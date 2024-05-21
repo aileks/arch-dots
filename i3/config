@@ -68,7 +68,7 @@ bindsym $mod+q kill
 bindsym $mod+t exec --no-startup-id wezterm
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 bindsym $mod+e exec --no-startup-id Thunar
-bindsym $mod+w exec --no-startup-id brave
+bindsym $mod+w exec --no-startup-id brave-browser
 bindsym $mod+v exec --no-startup-id emacsclient -n -c -a ''
 
 # screenshot bindings
@@ -173,7 +173,7 @@ exec --no-startup-id dunst
 exec --no-startup-id nm-applet
 exec --no-startup-id emacs --bg-daemon
 exec --no-startup-id picom -b
-exec --no-startup-id feh --no-fehbg --bg-fill ~/Pictures/Wallpapers/clouds.jpg
+exec --no-startup-id feh --no-fehbg --bg-fill ~/Pictures/Wallpapers/fgo.jpg
 exec --no-startup-id xrandr --output DisplayPort-0 --mode 2560x1440 --rate 165
 exec_always --no-startup-id xinput set-prop "10" "libinput Accel Profile Enabled" 0 1 0
 exec --no-startup-id xrdb -merge $HOME/.Xresources
